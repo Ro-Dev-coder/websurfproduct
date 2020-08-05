@@ -1,0 +1,303 @@
+.cuerpo {
+   background-color: white;    
+}
+
+.container{
+   background-color: white;
+   border-radius:15px 15px 15px 15px; 
+   width: 100%;
+   padding-top: 50px;
+ }
+
+ /*Barra de Navegacion*/
+.navbar {
+  font-family: confortaa;
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.logonavbar {
+  height:45px;
+  width: 45px;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+ /*Home/Presentacion del producto*/
+.home {
+  background-image: url("Photos/candadoedit.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin:auto;
+}
+
+
+ /*Blog*/
+.blog {
+  background-image: url("Photos/ola2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin: auto;
+}
+
+.button {
+  font-family: comfortaa;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 125px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*About Us*/
+.about {
+ background-image: url("Photos/negocio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  font-family: comfortaa;
+  color: black; 
+  margin: auto;
+  width: 100%;
+  height: 800px;
+}
+
+.description {
+    background-color: white;
+    border-radius:15px 15px 15px 15px; 
+    padding: 30px 30px 30px 30px;
+    margin: 170px 60px 60px 60px;
+
+}
+
+/*Contact*/
+.contact{
+  background-image: url("Photos/");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+
+.text {
+  text-align: center;
+  font-family: comfortaa;
+  color: black; 
+  margin: auto;
+  padding: 150px;
+  width: 80%;
+}
+
+.social {
+  background-image: url("Photos/agua.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  font-family: comfortaa;
+  color: black; 
+  margin: auto;
+  height: 300px;
+  width: 100%;
+}
+
+.ulform {
+  text-align: center;
+}
+
+.text1 {
+  width: 55%;
+  margin-left: 320px;
+  margin-top: 5px;
+}
+
+.photohome {
+  margin-right: 320px;
+  margin-top: 5px;
+  width: 500px;
+  height: 250px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.footer {
+  font-family: comfortaa;
+  background-color: black;
+  height: 90px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.parrafo {
+  color: white;
+  padding-top: 10px;
+  margin-left: 700px;
+}
+
+.contact {
+   color: black;
+   font-size: 15px;
+}
+
+.text2 {
+  width: 75%;
+  margin-left: 320px;
+  margin-top: 5px;
+}
+
+.phone {
+  width: 15%;
+  margin-right: 175px;
+  margin-top: -200px;
+
+}
+
+.contactform {
+  margin-left: 220px;
+  margin-top: 5px;
+  width: 700px;
+  height: 500px;
+}
+
+.photoabout {
+  margin-right: 320px;
+  margin-top: 5px;
+  width: 300px;
+  height: 300px;
+}
+
+.blog2 {
+  background-image: url("Photos/surfer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 75%;
+  height: 500px;
+  border-radius: 15px 15px 15px 15px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.blog2:hover {
+  opacity: 1; 
+  transform: scale(1.1); 
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.blog3 {
+  background-image: url("Photos/article.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 75%;
+  height: 500px;
+  border-radius: 15px 15px 15px 15px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.blog3:hover {
+  opacity: 1; 
+  transform: scale(1.1); 
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.photoblog {
+  margin-right: 320px;
+  margin-top: 5px;
+  width: 500px;
+  height: 300px;
+  height: 250px;
+}
+
+/*Botones de RRSS e Iconos*/
+        .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+
+      .fa:hover {
+          opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
+.logofooter {
+  height:45px;
+  width: 45px;
+  align-content: center;
+  margin-top: 12px;
+  margin-left: 900px;
+}
